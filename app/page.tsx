@@ -1,4 +1,4 @@
-import AlertTable from "@/components/AlertTable";
+import AlertTable from "../components/AlertTable";
 
 async function getAlerts() {
   const res = await fetch("http://localhost:3000/api/alerts", {
